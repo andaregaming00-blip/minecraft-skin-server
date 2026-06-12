@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import { kv } from '@vercel/kv'; // Official Vercel Free Cloud Storage
 
 // GET Request: Fetches data for the launcher
 export async function GET(request, { params }) {
